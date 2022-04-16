@@ -22,7 +22,7 @@ def userLogin(request):
             res = render(request,'BRMapp/user_login.html',data)
             return res
     else:
-        print("hello")
+        print("helloo")
         return render(request,'BRMapp/user_login.html',data)
         
 
