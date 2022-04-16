@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+body{
+    background-color: #e0ebeb;
+}
+.home_head{
+    background-color: rgb(34, 32, 32);
+    color: white;
+}
+.intro{
+    /* width: 300px; */
+    padding: 10px;
+    /* margin: auto; */
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}.intro p{
+    margin: 5px;
+    padding: 5px;
+}
+/* .intro h1:hover{
+    color: aqua;
+    font-size: 50px;
+} */
+.looking-for-teacher-tution{
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.ad{
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow:1px 1px 5px 2px rgb(104, 103, 103);
+    width: 660px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ad-comp a{
+    background-color: rgb(34, 32, 32);
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.ad-comp{
+    margin: 4px;
+    padding: 2px;
+}
+.ad-comp a:hover{
+    background-color:  rgb(55, 99, 105);
+}
+hr{
+    margin: 70px;
+    height: 5px;
+    background-color:rgb(34, 32, 32) ;
+}
+.Services{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.Services-child{
+    margin: 10px;
+    padding: 10px;
+}
+.Services-child h1{
+   text-align: center;
+}
