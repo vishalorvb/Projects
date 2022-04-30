@@ -1,4 +1,7 @@
-from selenium import webdriver
+from datetime import date
+  
+  
 
-web = webdriver.Chrome()
-web.get('https://www.irctc.co.in/nget/train-search')
+today = date.today()
+print("Today date is: ", today)
+print(type(today))
